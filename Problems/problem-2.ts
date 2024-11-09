@@ -3,14 +3,13 @@
 
     // Remove Duplicates
 
-    const removeDuplicates = (arrOfNumbers: number[]) => {
+    const removeDuplicates = (arrOfNumbers: number[]) : number[] => {
 
         const withoutDuplicates: number[] = []
-        // let found = false
 
-        arrOfNumbers.map((numOfDupArr) => {
-        if (withoutDuplicates.map(num) => ) {
-        
+        arrOfNumbers.forEach((numOfDupArr) => {
+        if (!withoutDuplicates.includes(numOfDupArr) ) {
+        withoutDuplicates.push(numOfDupArr)
       }})
       return withoutDuplicates
         
