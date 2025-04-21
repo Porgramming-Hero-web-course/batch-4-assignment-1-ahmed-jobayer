@@ -15,7 +15,12 @@ class Car {
         return carAge
     }
 
+
+
+
+
+
 }
 
-const car = new Car("Honda", "Civic", 2019);
+const car = new Car("Toyota", "CHR", 2019);
 console.log(car.getCarAge());

@@ -19,7 +19,4 @@
     console.log(result)
 
 
-    
-
-    // 
 }

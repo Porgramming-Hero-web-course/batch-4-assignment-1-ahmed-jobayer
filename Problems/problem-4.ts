@@ -1,5 +1,4 @@
 {
-    // 
     // calculate area based on the shape type
 
     type Circle = {
@@ -15,7 +14,7 @@
 
     type Shape = Circle | Rectangle
 
-    const calculateShapeArea = (cirOrRec : Shape) : number => {
+    const calculateShapeArea = (cirOrRec: Shape): number => {
 
         if (cirOrRec.shape === 'circle') {
             return parseFloat((Math.PI * cirOrRec.radius ** 2).toFixed(2))
@@ -27,16 +26,7 @@
     // const circleArea = calculateShapeArea({shape: 'circle', radius: 5})
     const circleArea = calculateShapeArea({ shape: "rectangle", width: 4, hight: 6 })
 
-        console.log(circleArea)
+    console.log(circleArea)
 
 
-
-
-
-
-
-
-
-    
-    // 
 }
